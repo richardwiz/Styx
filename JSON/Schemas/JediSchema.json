@@ -3,11 +3,21 @@
    "properties": {
       "Name": {
          "required": true,
-         "type": "string"
+         "type": "string",
+         "defaultValue": "Luke",
+         "readOnly": false,
+         "hidden": false,
+         "constraints": "",
+         "description":  "The name of a Jedi"
       },
       "Force": {
          "required": true,
-         "type": "integer"
+         "type": "integer",
+         "defaultValue": 1,
+         "readOnly": false,
+         "hidden": false,
+         "constraints": "",
+         "description": "The Force value of a Jedi"
       }
    }
 }

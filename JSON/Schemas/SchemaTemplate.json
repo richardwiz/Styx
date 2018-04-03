@@ -1,28 +1,13 @@
 {
-   "name": "Text",
-   "<constrained" "to",
-   "be" "mixed",
-   "uppercase>",
+   "name": "Text <constrained to be mixed uppercase>",
    "version": "Integer",
-   "extends": "Array",
-   "<constrained" "to",
-   "contain" "(schema)",
-   "URI" "text",
-   "elements>",
+   "extends": "Array <constrained to contain (schema) URI text elements>",
    "fields": {
-      "<Set" "of",
-      "Field" "schema-constrained",
-      "forms>"
+      "<Set of Field schema-constrained forms>"
    },
-   "stateFacts": "Array",
-   "<constrained" "to",
-   "contain" "mixed",
-   "uppercase" "text",
-   "elements>",
+   "stateFacts": "Array <constrained to contain mixed uppercase text elements>",
    "linkFormulas": {
-      "<Set" "of",
-      "LinkFormula" "schema-constrained",
-      "forms>"
+      "<Set of LinkFormula schema-constrained forms>"
    },
    "description": "Text"
 }

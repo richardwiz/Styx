@@ -1,0 +1,13 @@
+{
+   "type": "object",
+   "properties": {
+      "Name": {
+         "required": true,
+         "type": "string"
+      },
+      "Force": {
+         "required": true,
+         "type": "integer"
+      }
+   }
+}
